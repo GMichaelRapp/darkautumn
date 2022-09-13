@@ -1,1 +1,5 @@
 Hello!
+
+---
+
+{% include footer.html %}
