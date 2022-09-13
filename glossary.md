@@ -8,3 +8,8 @@ nav_order: 3
 
 
 ## Glossary
+
+
+---
+
+{% include footer.html %}
