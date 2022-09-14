@@ -1,7 +1,8 @@
 remote_theme: just-the-docs/just-the-docs
 title: Dark Autumn
 description: A Sci-Fi Web Serial
-disqus: boltfromtheblue.disqus.com
+disqus: 
+  shortname: boltfromtheblue.disqus.com
 exclude:
   - LICENSE
   - README.md
