@@ -1,6 +1,6 @@
 ---
 
-layout: pages
+layout: default
 title: Community
 nav_order: 1.5
 comments: true
@@ -13,3 +13,4 @@ This is where readers can discuss their favorite characters, installments, and m
 
 ---
 
+{% include disqus.html %}
