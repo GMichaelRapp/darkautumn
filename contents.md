@@ -12,8 +12,7 @@ comments: false
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }} "{{ post.date }}/monthview"</a>
-      {{ post.excerpt }}
+      <a href="{{ post.url }}">{{ post.title }} {{ post.date }}</a>
     </li>
   {% endfor %}
 </ul>
