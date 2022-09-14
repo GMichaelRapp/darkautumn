@@ -12,3 +12,7 @@ comments: true
 This is where readers can discuss their favorite characters, installments, and moments. Or, speculate about what comes next. 
 
 ---
+
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
