@@ -19,8 +19,6 @@ comments: false
   </article>
 {% endfor %}
 
-{% if post.content.size > post.excerpt.size %}
-
 ---
 
 {% include footer.html %}
