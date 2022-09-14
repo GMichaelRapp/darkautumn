@@ -7,6 +7,8 @@ comments: false
 
 ---
 
+## Table of Contents
+
 <ul>
   {% for post in site.posts %}
     <li>
