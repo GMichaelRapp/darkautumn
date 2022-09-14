@@ -13,8 +13,6 @@ This is where readers can discuss their favorite characters, installments, and m
 
 ---
 
-{% if site.disqus.shortname %}
-  {% include disqus.html %}
-{% endif %}
+{% include disqus.html %}
 
 ---
