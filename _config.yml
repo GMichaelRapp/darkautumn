@@ -3,9 +3,6 @@ title: Dark Autumn
 description: A Sci-Fi Web Serial
 disqus: boltfromtheblue.disqus.com
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
-url: boltfromthe.blue
