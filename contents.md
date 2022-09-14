@@ -7,14 +7,16 @@ comments: false
 
 ---
 
-<div class="constrain">
-   <h1>Table of Contents</h1> 
-           {% for post in site.posts offset:1 %}
-                   <h3>{{ post.title }} - {{ post.date | date:"%d %b" }}</h3>
-           {% endfor %}
-          
-   </section>
-</div>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    </li>
+  {% endfor %}
+</ul>
 
 ---
 
