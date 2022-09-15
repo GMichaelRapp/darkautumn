@@ -12,3 +12,8 @@ search_enabled: true
 search.previews: 5
 search.preview_words_before: 5
 search.preview_words_after: 10
+callouts:
+  warning:
+    title: Warning
+    color: purple
+
