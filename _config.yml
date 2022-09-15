@@ -8,8 +8,4 @@ exclude:
   - CNAME
 excerpt_separator: <!--more-->
 timezone: America/Denver
-plugins:
-  - jekyll-analytics
-Plausible:
-    domain: 'boltfromthe.blue'   # The domain configured in plausible
-    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
+search_enabled: true
