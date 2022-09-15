@@ -9,3 +9,6 @@ exclude:
 excerpt_separator: <!--more-->
 timezone: America/Denver
 search_enabled: true
+search.previews: 5
+search.preview_words_before: 5
+search.preview_words_after: 10
